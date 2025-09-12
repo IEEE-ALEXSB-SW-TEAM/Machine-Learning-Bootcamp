@@ -150,7 +150,7 @@ When building ML models, there is a fundamental tradeoff between **bias** and **
 - **High Variance (Overfitting)** → Model memorizes training data, fails on new data.  
 - **Good Tradeoff** → Balanced model that performs well on both training and unseen data.
 
-![r7QFy]/S1-Intro_to_ML(/images/dart_bias_variance.png)
+![r7QFy](/S1-Intro_to_ML/images/dart_bias_variance.png)
 
 ![1_oO0KYF7Z84nePqfsJ9E0WQ](/S1-Intro_to_ML/images/bias_variance_tradeoff.png)
 
