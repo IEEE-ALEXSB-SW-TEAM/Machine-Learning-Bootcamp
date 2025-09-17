@@ -98,7 +98,7 @@ Boosting is an **ensemble technique** that trains models **sequentially**, with 
 6. Repeat steps 3–5 for `n_estimators` rounds.
 7. Combine all models’ predictions (weighted sum or vote).
 
-![boosting](\S03-Decision Trees & Ensembles\images\boosting.jpg)
+![boosting](images/boosting.jpg)
 
 
 

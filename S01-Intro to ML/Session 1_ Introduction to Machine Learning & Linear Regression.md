@@ -57,7 +57,7 @@ It is especially powerful for handling large, unstructured data such as images, 
   - **ML** → AI that learns from data.  
     - **DL** → ML using multi-layer neural networks.  
 
-![AI-vs-ML-vs-Deep-Learning](/S1-Intro_to_ML/images/AI-vs-ML-vs-Deep-Learning.png)
+![AI-vs-ML-vs-Deep-Learning](images/AI-vs-ML-vs-Deep-Learning.png)
 
 
 This bootcamp focuses mainly on **Machine Learning (ML)** and **Deep Learning (DL)**.  
@@ -103,7 +103,7 @@ In supervised learning, the model is trained on **labeled data** (we already kno
 - **Classification** → Answers *“Which class does it belong to?”*  
 - **Regression** → Answers *“What is the numeric value?”*  
 
-![regression-vs-classification_simple-comparison-image_v3](/S1-Intro_to_ML/images/regression_vs_classification.png)
+![regression-vs-classification_simple-comparison-image_v3](images/regression_vs_classification.png)
 
 
 ---
@@ -135,7 +135,7 @@ In supervised learning, the model is trained on **labeled data** (we already kno
 - The model is too simple to capture the underlying patterns in the data.
 - **Solution**: Use a more complex model or add more features.
 
-![mlconcepts_image5](/S1-Intro_to_ML/images/balanced.png)
+![mlconcepts_image5](images/balanced.png)
 
 
 ### Bias-variance tradeoff
@@ -150,9 +150,9 @@ When building ML models, there is a fundamental tradeoff between **bias** and **
 - **High Variance (Overfitting)** → Model memorizes training data, fails on new data.  
 - **Good Tradeoff** → Balanced model that performs well on both training and unseen data.
 
-![r7QFy](/S1-Intro_to_ML/images/dart_bias_variance.png)
+![r7QFy](images/dart_bias_variance.png)
 
-![1_oO0KYF7Z84nePqfsJ9E0WQ](/S1-Intro_to_ML/images/bias_variance_tradeoff.png)
+![1_oO0KYF7Z84nePqfsJ9E0WQ](images/bias_variance_tradeoff.png)
 
 ### Bias-Variance Tradeoff
 
