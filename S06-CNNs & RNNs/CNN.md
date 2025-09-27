@@ -135,7 +135,7 @@ CNNs work similarly. They apply **filters** to detect patterns like edges, textu
 
 | Input Image | Filter (Edge Detection)                  | Output             |
 | ----------- | ---------------------------------------- | ------------------ |
-| ![original](images/original_before_conv.png) | $$\begin{bmatrix} -1 & -1 & -1 \\ 0 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix}$$ | ![output](images/after_conv.png)|
+| ![original](images/original_before_conv.png) | <img src="images/matrix.PNG" alt="filter" width="300"> | ![output](images/after_conv.png)|
 
 You can read more about filters on [this article](https://www.digitalocean.com/community/tutorials/filters-in-convolutional-neural-networks).
 
