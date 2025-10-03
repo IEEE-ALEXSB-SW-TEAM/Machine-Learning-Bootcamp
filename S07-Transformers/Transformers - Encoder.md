@@ -19,10 +19,8 @@ Traditional sequence models (RNNs, LSTMs, GRUs) dominated NLP before Transformer
 You can think of a transformer like two blocks called encoder and decoder, we will dive into the two blocks right now.
 ![encoder-decoder](images/encoder-decoder.png)
 But before diving in we should make our data ready to go into these neural networks, we need to represent each word with a vector, and maybe try to handle positional information since there’s no recurrence!
+
 ![transformer](images/transformer.png)
-
-
-
 
 ---
 
@@ -335,7 +333,7 @@ $$
 #### 3) Scale the scores
 
 $$
-\text{scaled_score}_{i,j} = \frac{Q_i \cdot K_j^T}{\sqrt{d_k}}
+\text{scaled score}_{i,j} = \frac{Q_i \cdot K_j^T}{\sqrt{d_k}}
 $$
 
 * Scaling by $\sqrt{d_k}$ prevents large dot products from making the softmax saturate.
@@ -345,7 +343,7 @@ $$
 #### 4) Apply Softmax
 
 $$
-\alpha_{i,j} = \text{softmax}(\text{scaled_score}_{i,j}) = \frac{\exp(\text{scaled_score}_{i,j})}{\sum_{j=1}^n \exp(\text{scaled_score}_{i,j})}
+\alpha_{i,j} = \text{softmax}(\text{scaled score}_{i,j}) = \frac{\exp(\text{scaled score}_{i,j})}{\sum_{j=1}^n \exp(\text{scaled score}_{i,j})}
 $$
 
 * $\alpha_{i,j}$ = **attention weight**: how much token $i$ attends to token $j$.
