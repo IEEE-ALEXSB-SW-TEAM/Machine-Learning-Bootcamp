@@ -8,3 +8,7 @@ You can find the presentation [here](./Naive-Bayes.pdf) or for the most updated 
 
 ## Additional Resources
 - Explanatory Videos: [Naive Bayes Classifier](https://drive.google.com/drive/folders/1t9QB2VxBFt9IZZ2OTi131pBSX3AhOI_j)
+
+
+## Practice
+- [Naive Bayes Classifier Notebook](https://www.kaggle.com/code/prashant111/naive-bayes-classifier-in-python)
